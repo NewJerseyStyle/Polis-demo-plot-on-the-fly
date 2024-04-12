@@ -7,3 +7,8 @@ Here we demostrate a solution based on openData of Polis to show possible plugin
 to plot or analyze comments in conversation using language model enable users to request 
 plotting other chart (beside of PCA chart) on-the-fly.
 
+## Get started
+Run `Polis_PandasAI.ipynb`... say in Google Colab, and edit the form in inference part 
+at bottom of the notebook.
+
+> ℹ️ By default this version used `Code LLama 13b`, replacing it with `GPT-4` or ther LLM is possible
