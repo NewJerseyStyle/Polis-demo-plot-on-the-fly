@@ -8,7 +8,13 @@ to plot or analyze comments in conversation using language model enable users to
 plotting other chart (beside of PCA chart) on-the-fly.
 
 ## Get started
-Run `Polis_PandasAI.ipynb`... say in Google Colab and press `Ctrl+F9`, and edit the form 
-in inference part at bottom of the notebook.
+> ⚠️ Nvidia GPU required to run the jupyter notebook. In Colab please ensure you runtime is `T4`
 
-> ℹ️ By default this version used `Code LLama 13b`, replacing it with `GPT-4` or ther LLM is possible
+Run `Polis_PandasAI.ipynb`... say in Google Colab and press `Ctrl+F9`, and edit the form 
+in inference part at bottom of the notebook. 
+
+> The first run will take some time as it will download all dependencies and load LLM into GPU
+
+And by editing text in request will trigger auto update of output. 
+
+> ℹ️ By default this version used `Code LLama 13b`, replacing it with `GPT-4`, `Bamboo LLM` or other LLM is possible
